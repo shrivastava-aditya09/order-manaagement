@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/aditya-0902/order-management/pkg/routes"
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/shrivastava-aditya09/order-management/pkg/routes"
 )
 
 func main() {
